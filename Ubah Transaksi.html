@@ -1,0 +1,81 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-blue-900 text-white font-sans">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-1/5 bg-blue-800 h-screen p-4">
+            <h1 class="text-lg font-bold mb-6">FORM ADMIN</h1>
+            <ul>
+                <li class="mb-4"><a href="#" class="block bg-white text-black py-2 px-4 rounded">Dashboard</a></li>
+                <li class="mb-4"><a href="#" class="block bg-white text-black py-2 px-4 rounded">Transaksi</a></li>
+                <li class="mb-4"><a href="#" class="block bg-white text-black py-2 px-4 rounded">Etalase</a></li>
+                <li class="mb-4"><a href="#" class="block bg-white text-black py-2 px-4 rounded">Laporan penjualan</a></li>
+            </ul>
+        </div>
+        <!-- Main Content -->
+        <div class="w-4/5 p-8">
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-8">
+                <div></div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white">Home</a>
+                    <a href="#" class="text-white">Testimonial</a>
+                    <a href="#" class="text-white">History</a>
+                    <a href="#" class="text-white">Etalase</a>
+                    <i class="fas fa-user-circle text-white text-2xl"></i>
+                </div>
+            </div>
+            <!-- Form -->
+            <div class="grid grid-cols-2 gap-8">
+                <div>
+                    <div class="mb-4">
+                        <label class="block mb-2">ID Transaksi</label>
+                        <input type="text" class="w-full p-2 rounded bg-gray-300 text-black">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2">Tanggal</label>
+                        <input type="text" class="w-full p-2 rounded bg-gray-300 text-black">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2">Nama Pelanggan</label>
+                        <input type="text" class="w-full p-2 rounded bg-gray-300 text-black">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2">Jenis Ikan</label>
+                        <input type="text" class="w-full p-2 rounded bg-gray-300 text-black">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2">Jumlah (kg)</label>
+                        <input type="text" class="w-full p-2 rounded bg-gray-300 text-black">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2">Harga per kg (Rp)</label>
+                        <input type="text" class="w-full p-2 rounded bg-gray-300 text-black">
+                    </div>
+                </div>
+                <div>
+                    <div class="mb-4">
+                        <label class="block mb-2">Status Pembayaran</label>
+                        <input type="text" class="w-full p-2 rounded bg-gray-300 text-black">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2">Metode Pengiriman</label>
+                        <input type="text" class="w-full p-2 rounded bg-gray-300 text-black">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2">Alamat Pengiriman</label>
+                        <textarea class="w-full p-2 rounded bg-gray-300 text-black h-32"></textarea>
+                    </div>
+                    <div class="flex space-x-4">
+                        <button class="bg-blue-600 text-white py-2 px-4 rounded">Simpan</button>
+                        <button class="bg-blue-400 text-white py-2 px-4 rounded">Batal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

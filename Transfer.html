@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-blue-900 text-white font-sans">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-1/5 bg-blue-800 h-screen p-4">
+            <h1 class="text-lg font-bold mb-6">FORM ADMIN</h1>
+            <ul>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 bg-blue-700 rounded">Dashboard</a></li>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 hover:bg-blue-700 rounded">Transaksi</a></li>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 hover:bg-blue-700 rounded">Etalase</a></li>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 hover:bg-blue-700 rounded">Laporan penjualan</a></li>
+            </ul>
+        </div>
+        <!-- Main Content -->
+        <div class="w-4/5 p-6">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold">Dashboard</h2>
+                <div class="flex items-center">
+                    <a href="#" class="mr-4">Home</a>
+                    <a href="#" class="mr-4">Testimonial</a>
+                    <a href="#" class="mr-4">History</a>
+                    <a href="#" class="mr-4">Etalase</a>
+                    <i class="fas fa-user-circle text-2xl"></i>
+                </div>
+            </div>
+            <div class="bg-blue-800 p-4 rounded">
+                <div class="flex justify-between items-center mb-4">
+                    <div>
+                        <label for="show-entries" class="mr-2">Show</label>
+                        <input type="text" id="show-entries" class="w-12 p-1 text-black">
+                        <span>Entries</span>
+                    </div>
+                    <div>
+                        <label for="search" class="mr-2">Search:</label>
+                        <input type="text" id="search" class="p-1 text-black">
+                    </div>
+                </div>
+                <table class="w-full text-left">
+                    <thead>
+                        <tr>
+                            <th class="border px-4 py-2">#</th>
+                            <th class="border px-4 py-2">Transaction id</th>
+                            <th class="border px-4 py-2">Customer name</th>
+                            <th class="border px-4 py-2">Address</th>
+                            <th class="border px-4 py-2">Phone</th>
+                            <th class="border px-4 py-2">Item</th>
+                            <th class="border px-4 py-2">Total Quantity</th>
+                            <th class="border px-4 py-2">(Rp) Total Bayar</th>
+                            <th class="border px-4 py-2">Bukti Transfer</th>
+                            <th class="border px-4 py-2">Status</th>
+                            <th class="border px-4 py-2">Checkout date</th>
+                            <th class="border px-4 py-2">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border px-4 py-2">1.</td>
+                            <td class="border px-4 py-2">118</td>
+                            <td class="border px-4 py-2">Yeni Rumbayan</td>
+                            <td class="border px-4 py-2">Kel. Tanjung Merah</td>
+                            <td class="border px-4 py-2">08950447200</td>
+                            <td class="border px-4 py-2">Cakalang</td>
+                            <td class="border px-4 py-2">1</td>
+                            <td class="border px-4 py-2">60.000</td>
+                            <td class="border px-4 py-2">Bukti Transfer</td>
+                            <td class="border px-4 py-2">Packing</td>
+                            <td class="border px-4 py-2">Checkout date</td>
+                            <td class="border px-4 py-2"><i class="fas fa-trash-alt"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">2.</td>
+                            <td class="border px-4 py-2">198</td>
+                            <td class="border px-4 py-2">Ayin Dompeipen</td>
+                            <td class="border px-4 py-2">Jln. Wolter Monginsidi</td>
+                            <td class="border px-4 py-2">08123109282</td>
+                            <td class="border px-4 py-2">Deho</td>
+                            <td class="border px-4 py-2">1</td>
+                            <td class="border px-4 py-2">42.300</td>
+                            <td class="border px-4 py-2">Bukti Transfer</td>
+                            <td class="border px-4 py-2">On The Way</td>
+                            <td class="border px-4 py-2">Checkout date</td>
+                            <td class="border px-4 py-2"><i class="fas fa-trash-alt"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">3.</td>
+                            <td class="border px-4 py-2">120</td>
+                            <td class="border px-4 py-2">Natalia Langi</td>
+                            <td class="border px-4 py-2">Jln. Garuda Kawasan</td>
+                            <td class="border px-4 py-2">08377427888</td>
+                            <td class="border px-4 py-2">Melalugis</td>
+                            <td class="border px-4 py-2">2</td>
+                            <td class="border px-4 py-2">70.300</td>
+                            <td class="border px-4 py-2">Bukti Transfer</td>
+                            <td class="border px-4 py-2">Packing</td>
+                            <td class="border px-4 py-2">Checkout date</td>
+                            <td class="border px-4 py-2"><i class="fas fa-trash-alt"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">4.</td>
+                            <td class="border px-4 py-2">118</td>
+                            <td class="border px-4 py-2">Victory Lapian</td>
+                            <td class="border px-4 py-2">Alumbanua Baraki</td>
+                            <td class="border px-4 py-2">08377322511</td>
+                            <td class="border px-4 py-2">Tude</td>
+                            <td class="border px-4 py-2">1</td>
+                            <td class="border px-4 py-2">100.000</td>
+                            <td class="border px-4 py-2">Bukti Transfer</td>
+                            <td class="border px-4 py-2">Arrived</td>
+                            <td class="border px-4 py-2">Checkout date</td>
+                            <td class="border px-4 py-2"><i class="fas fa-trash-alt"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">5.</td>
+                            <td class="border px-4 py-2">118</td>
+                            <td class="border px-4 py-2">Noffre Lengkong</td>
+                            <td class="border px-4 py-2">Jln. CH Tahu</td>
+                            <td class="border px-4 py-2">Phone</td>
+                            <td class="border px-4 py-2">Tongkol</td>
+                            <td class="border px-4 py-2">1</td>
+                            <td class="border px-4 py-2">35.000</td>
+                            <td class="border px-4 py-2">Bukti Transfer</td>
+                            <td class="border px-4 py-2">Cancelled</td>
+                            <td class="border px-4 py-2">Checkout date</td>
+                            <td class="border px-4 py-2"><i class="fas fa-trash-alt"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="flex justify-between items-center mt-4">
+                    <span>Showing 1 to 1 of 1 entries</span>
+                    <div>
+                        <button class="bg-blue-700 px-4 py-2 rounded">Previous</button>
+                        <button class="bg-blue-700 px-4 py-2 rounded">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

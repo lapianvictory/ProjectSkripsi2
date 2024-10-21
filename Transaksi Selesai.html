@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-blue-900 text-white font-sans">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-1/5 bg-blue-800 h-screen p-4">
+            <h1 class="text-lg font-bold mb-6">FORM ADMIN</h1>
+            <ul>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 bg-blue-700 rounded">Dashboard</a></li>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 hover:bg-blue-700 rounded">Transaksi</a></li>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 hover:bg-blue-700 rounded">Etalase</a></li>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 hover:bg-blue-700 rounded">Laporan penjualan</a></li>
+            </ul>
+        </div>
+        <!-- Main Content -->
+        <div class="w-4/5 p-6">
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold">Dashboard</h2>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:underline">Home</a>
+                    <a href="#" class="hover:underline">Testimonial</a>
+                    <a href="#" class="hover:underline">History</a>
+                    <a href="#" class="hover:underline">Etalase</a>
+                    <a href="#" class="text-2xl"><i class="fas fa-user-circle"></i></a>
+                </div>
+            </div>
+            <!-- Dashboard Cards -->
+            <div class="grid grid-cols-3 gap-6">
+                <div class="bg-gray-300 text-black p-4 rounded">
+                    <h3 class="text-lg font-bold mb-2">Jumlah Produk</h3>
+                    <i class="fas fa-box fa-2x"></i>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded">
+                    <h3 class="text-lg font-bold mb-2">Pendapatan / Hari ini</h3>
+                    <p>16.483.000Rp</p>
+                    <i class="fas fa-dollar-sign fa-2x"></i>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded">
+                    <h3 class="text-lg font-bold mb-2">Transaksi COD</h3>
+                    <p>18.295.000Rp</p>
+                    <i class="fas fa-money-bill-wave fa-2x"></i>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded">
+                    <h3 class="text-lg font-bold mb-2">Transaksi Cancelled</h3>
+                    <p>4 Cancelled</p>
+                    <i class="fas fa-times-circle fa-2x"></i>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded">
+                    <h3 class="text-lg font-bold mb-2">In Cart</h3>
+                    <p>10</p>
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded">
+                    <h3 class="text-lg font-bold mb-2">Transaksi Selesai</h3>
+                    <p>13 Sukses</p>
+                    <i class="fas fa-check-square fa-2x"></i>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded col-span-3">
+                    <h3 class="text-lg font-bold mb-2">Customer</h3>
+                    <p>5 Comments</p>
+                    <i class="fas fa-comment fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

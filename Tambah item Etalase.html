@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Form Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-blue-900 text-white">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-1/4 bg-blue-800 h-screen p-4">
+            <h1 class="text-lg font-bold mb-8">FORM ADMIN</h1>
+            <ul>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 bg-blue-700 rounded">Dashboard</a></li>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 bg-blue-700 rounded">Transaksi</a></li>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 bg-blue-700 rounded">Etalase</a></li>
+                <li class="mb-4"><a href="#" class="block py-2 px-4 bg-blue-700 rounded">Laporan penjualan</a></li>
+            </ul>
+        </div>
+        <!-- Main Content -->
+        <div class="w-3/4 p-8">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-2xl font-bold">Tambah item</h2>
+                <nav>
+                    <ul class="flex space-x-4">
+                        <li><a href="#" class="hover:underline">Home</a></li>
+                        <li><a href="#" class="hover:underline">Testimonial</a></li>
+                        <li><a href="#" class="hover:underline">History</a></li>
+                        <li><a href="#" class="hover:underline">Etalase</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <form>
+                <div class="mb-4">
+                    <label for="id_transaksi" class="block mb-2">ID Transaksi</label>
+                    <input type="text" id="id_transaksi" class="w-full p-2 rounded bg-gray-200 text-black">
+                </div>
+                <div class="mb-4">
+                    <label for="tanggal" class="block mb-2">Tanggal</label>
+                    <input type="date" id="tanggal" class="w-full p-2 rounded bg-gray-200 text-black">
+                </div>
+                <div class="mb-4">
+                    <label for="nama_pelanggan" class="block mb-2">Nama Pelanggan</label>
+                    <input type="text" id="nama_pelanggan" class="w-full p-2 rounded bg-gray-200 text-black">
+                </div>
+                <div class="mb-4">
+                    <label for="jenis_ikan" class="block mb-2">Jenis Ikan</label>
+                    <input type="text" id="jenis_ikan" class="w-full p-2 rounded bg-gray-200 text-black">
+                </div>
+                <div class="mb-4">
+                    <label for="jumlah" class="block mb-2">Jumlah (Kg)</label>
+                    <input type="number" id="jumlah" class="w-full p-2 rounded bg-gray-200 text-black">
+                </div>
+                <div class="flex space-x-4">
+                    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">Simpan</button>
+                    <button type="reset" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">Batal</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

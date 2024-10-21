@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-blue-900 text-white font-sans">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-1/4 bg-blue-800 p-4">
+            <h1 class="text-xl font-bold mb-6">FORM ADMIN</h1>
+            <nav class="space-y-4">
+                <a href="#" class="block bg-blue-700 p-2 rounded">Dashboard</a>
+                <a href="#" class="block bg-blue-700 p-2 rounded">Transaksi</a>
+                <a href="#" class="block bg-blue-700 p-2 rounded">Etalase</a>
+                <a href="#" class="block bg-blue-700 p-2 rounded">Laporan penjualan</a>
+            </nav>
+            <div class="mt-8 p-4 bg-gray-700 text-gray-300 rounded">
+                <h2 class="text-lg font-bold mb-2">Jenis Transaksi</h2>
+                <ul class="list-disc list-inside">
+                    <li>COD</li>
+                    <li>TRANSFER</li>
+                    <li>Transaksi Selesai</li>
+                    <li>Ubah status transaksi</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Main Content -->
+        <div class="w-3/4 p-6">
+            <header class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold">Dashboard</h2>
+                <nav class="space-x-4">
+                    <a href="#" class="text-white">Home</a>
+                    <a href="#" class="text-white">Testimonial</a>
+                    <a href="#" class="text-white">History</a>
+                    <a href="#" class="text-white">Etalase</a>
+                    <a href="#" class="text-white"><i class="fas fa-user-circle"></i></a>
+                </nav>
+            </header>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="bg-gray-300 text-black p-4 rounded flex items-center">
+                    <i class="fas fa-box fa-2x mr-4"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">Jumlah Produk</h3>
+                    </div>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded flex items-center">
+                    <i class="fas fa-dollar-sign fa-2x mr-4"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">Pendapatan / Hari ini</h3>
+                        <p>16.483.000Rp.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded flex items-center">
+                    <i class="fas fa-money-bill-wave fa-2x mr-4"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">Transaksi COD</h3>
+                        <p>18.295.000Rp</p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded flex items-center">
+                    <i class="fas fa-times-circle fa-2x mr-4"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">Transaksi Cancelled</h3>
+                        <p>4 Cancelled</p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded flex items-center">
+                    <i class="fas fa-shopping-cart fa-2x mr-4"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">In Cart</h3>
+                        <p>10</p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded flex items-center">
+                    <i class="fas fa-check-circle fa-2x mr-4"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">Transaksi Selesai</h3>
+                        <p>13 Sukses</p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 text-black p-4 rounded flex items-center">
+                    <i class="fas fa-comments fa-2x mr-4"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">Customer</h3>
+                        <p>5 Comments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

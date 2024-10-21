@@ -1,0 +1,105 @@
+<html>
+<head>
+    <title>Form Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-blue-900 text-gray-200">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-1/5 bg-blue-800 h-screen p-4">
+            <h1 class="text-white text-lg mb-6">FORM ADMIN</h1>
+            <nav>
+                <ul>
+                    <li class="mb-4"><a href="#" class="text-white">Dashboard</a></li>
+                    <li class="mb-4"><a href="#" class="text-white">Transaksi</a></li>
+                    <li class="mb-4"><a href="#" class="text-white">Etalase</a></li>
+                    <li class="mb-4"><a href="#" class="text-white">Laporan penjualan</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Main Content -->
+        <div class="w-4/5 p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl">Tambah item</h2>
+                <div>
+                    <a href="#" class="bg-red-600 text-white px-4 py-2 rounded mr-2">Export pdf</a>
+                    <a href="#" class="bg-green-600 text-white px-4 py-2 rounded">Export excel</a>
+                </div>
+            </div>
+            <div class="bg-blue-700 p-4 rounded">
+                <h3 class="text-lg mb-2">Laporan Penjualan</h3>
+                <div class="flex justify-end mb-2">
+                    <label for="search" class="mr-2">Search :</label>
+                    <input type="text" id="search" class="p-1 rounded">
+                </div>
+                <table class="w-full text-left bg-gray-100 text-gray-900 rounded">
+                    <thead>
+                        <tr>
+                            <th class="p-2">#</th>
+                            <th class="p-2">Transaction ID</th>
+                            <th class="p-2">Transaction Date</th>
+                            <th class="p-2">Customer name</th>
+                            <th class="p-2">Fish Products</th>
+                            <th class="p-2">(Rp) Total Pembelian</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-2">1.</td>
+                            <td class="p-2">118</td>
+                            <td class="p-2">2024-11-8</td>
+                            <td class="p-2">Yenni Rumbayan</td>
+                            <td class="p-2">Cakalang</td>
+                            <td class="p-2">60.000Rp</td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">2.</td>
+                            <td class="p-2">119</td>
+                            <td class="p-2">2024-11-8</td>
+                            <td class="p-2">Ayen Dompeipen</td>
+                            <td class="p-2">Deho</td>
+                            <td class="p-2">42.300Rp</td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">3.</td>
+                            <td class="p-2">126</td>
+                            <td class="p-2">2024-11-8</td>
+                            <td class="p-2">Natalia Langi</td>
+                            <td class="p-2">Melalugis</td>
+                            <td class="p-2">32.000Rp</td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">4.</td>
+                            <td class="p-2">121</td>
+                            <td class="p-2">2024-11-8</td>
+                            <td class="p-2">Natalia Langi</td>
+                            <td class="p-2">Tude</td>
+                            <td class="p-2">35.200Rp</td>
+                        </tr>
+                        <tr>
+                            <td class="p-2">5.</td>
+                            <td class="p-2">174</td>
+                            <td class="p-2">2024-11-8</td>
+                            <td class="p-2">Noffre Lengkong</td>
+                            <td class="p-2">Tongkol</td>
+                            <td class="p-2">44.300Rp</td>
+                        </tr>
+                        <tr>
+                            <td class="p-2" colspan="5" class="text-right font-bold">Total Penjualan</td>
+                            <td class="p-2">213.800 Rp</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="flex justify-between mt-2">
+                    <span>Showing 1 to 1 of 1 entries</span>
+                    <div>
+                        <button class="bg-gray-300 text-gray-700 px-2 py-1 rounded mr-2">Previous</button>
+                        <button class="bg-gray-300 text-gray-700 px-2 py-1 rounded">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
