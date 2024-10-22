@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif; /* Default font */
+  background-color: #1e3a8a; /* Tailwind's blue-900 */
+  margin: 0;
+  color: white;
+}
+
+/* Header Styles */
+.header {
+  background-color: #1e40af; /* Tailwind's blue-800 */
+  padding: 1rem; /* Padding for header */
+  display: flex;
+  justify-content: space-between; /* Space between title and nav */
+  align-items: center; /* Center items vertically */
+}
+
+.header-title {
+  font-size: 1.5rem; /* Tailwind's text-xl */
+  font-weight: bold; /* Bold title */
+}
+
+/* Navigation Styles */
+.nav {
+  display: flex; /* Flexbox for nav items */
+}
+
+.nav-list {
+  display: flex; /* Horizontal list */
+  list-style: none;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  gap: 1rem; /* Space between nav items */
+}
+
+.nav-link {
+  color: white; /* White text */
+  text-decoration: none; /* Remove underline */
+  transition: text-decoration 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.user-icon {
+  font-size: 1.5rem; /* Size for user icon */
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 2rem; /* Padding for main content */
+}
+
+/* Grid Header Styles */
+.grid-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+  text-align: center; /* Center text */
+  font-weight: bold; /* Bold header text */
+  margin-bottom: 1rem; /* Space below header */
+}
+
+.header-item {
+  background-color: #3b82f6; /* Tailwind's blue-500 */
+  padding: 1rem; /* Padding for header items */
+}
+
+/* Grid Item Styles */
+.grid-item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 1rem; /* Space below item */
+}
+
+.product-image {
+  display: flex;
+  justify-content: center; /* Center image */
+}
+
+.product-image img {
+  border-radius: 50%; /* Circle image */
+  height: 100px; /* Fixed height */
+  width: 100px; /* Fixed width */
+}
+
+/* Divider Styles */
+.divider {
+  border-color: gray; /* Gray divider */
+  margin: 1rem 0; /* Space above and below divider */
+}
+
+/* Summary Container Styles */
+.summary-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* 2/3 for product info, 1/3 for payment info */
+  gap: 2rem; /* Space between columns */
+}
+
+/* Summary Box Styles */
+.summary-box {
+  background-color: #3b82f6; /* Tailwind's blue-500 */
+  padding: 1rem; /* Padding for summary box */
+}
+
+.summary-title {
+  font-size: 1.25rem; /* Larger font for titles */
+  font-weight: bold; /* Bold titles */
+  margin-bottom: 0.5rem; /* Space below title */
+}
+
+.summary-item,
+.summary-total {
+  background-color: #2563eb; /* Tailwind's blue-600 */
+  padding: 0.5rem; /* Padding for items */
+  margin: 0.5rem 0; /* Space above and below items */
+}
+
+/* Payment Container Styles */
+.payment-container {
+  background-color: #3b82f6; /* Tailwind's blue-500 */
+  padding: 1rem; /* Padding for payment container */
+}
+
+.payment-item {
+  display: flex; /* Flexbox for icons and text */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 0.5rem; /* Space below items */
+}
+
+.payment-item i {
+  margin-right: 0.5rem; /* Space between icon and text */
+}

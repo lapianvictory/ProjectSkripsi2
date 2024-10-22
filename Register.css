@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif; /* Default font for the page */
+  background-color: #1e3a8a; /* Tailwind's blue-800 */
+  color: white;
+  margin: 0;
+}
+
+/* Header Styles */
+.header {
+  background-color: #1e40af; /* Tailwind's blue-900 */
+  padding: 1rem;
+}
+
+.container {
+  max-width: 1200px; /* Adjust max width */
+  margin: 0 auto; /* Center the container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.25rem; /* Tailwind's text-lg */
+  font-weight: bold;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Space between navigation items */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-icon {
+  font-size: 1.5rem; /* Tailwind's text-2xl */
+}
+
+/* Main Content Styles */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 4rem); /* Adjust for header height */
+}
+
+.registration-container {
+  background-color: #3b82f6; /* Tailwind's blue-700 */
+  padding: 2rem; /* Tailwind's p-10 */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center;
+  width: 25rem; /* Fixed width for the registration form */
+}
+
+.icon-container {
+  margin-bottom: 1.5rem;
+}
+
+.icon-large {
+  font-size: 3rem; /* Larger icon */
+}
+
+.registration-title {
+  font-size: 1.5rem; /* Tailwind's text-2xl */
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* Space below title */
+}
+
+.registration-description {
+  margin-bottom: 1.5rem; /* Space below description */
+}
+
+.link {
+  color: white;
+  text-decoration: underline; /* Underlined link */
+}
+
+/* Form Styles */
+.registration-form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+.form-input {
+  background-color: #d1d5db; /* Tailwind's gray-300 */
+  color: black; /* Text color for input */
+  padding: 0.75rem; /* Tailwind's p-3 */
+  border-radius: 0.375rem; /* Rounded corners */
+  margin-bottom: 1rem; /* Space between inputs */
+  border: none; /* Remove default border */
+}
+
+.form-button {
+  background-color: #d1d5db; /* Tailwind's gray-300 */
+  color: black; /* Text color for button */
+  padding: 0.75rem; /* Tailwind's p-3 */
+  border-radius: 0.375rem; /* Rounded corners */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.form-button:hover {
+  background-color: #9ca3af; /* Tailwind's gray-400 */
+}

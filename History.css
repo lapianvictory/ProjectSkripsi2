@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif; /* Default font */
+  background-color: #1e3a8a; /* Tailwind's blue-800 */
+  color: white;
+  margin: 0;
+}
+
+/* Header Styles */
+.header {
+  background-color: #1e40af; /* Tailwind's blue-900 */
+  padding: 1rem;
+}
+
+.container {
+  max-width: 1200px; /* Adjust max width */
+  margin: 0 auto; /* Center the container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.25rem; /* Tailwind's text-xl */
+  font-weight: bold;
+}
+
+.header-nav {
+  display: flex;
+  list-style: none;
+  gap: 1rem; /* Space between navigation items */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.user-icon {
+  font-size: 1.5rem; /* Tailwind's text-2xl */
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 2rem; /* Tailwind's p-8 */
+}
+
+/* Table Styles */
+.transaction-table {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border: 1px solid #cbd5e1; /* Tailwind's gray-400 */
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.transaction-table th {
+  background-color: #e5e7eb; /* Tailwind's gray-200 */
+  color: black;
+}
+
+/* Status Styles */
+.status-ready {
+  color: green; /* Color for ready status */
+}
+
+.status-waiting {
+  color: orange; /* Color for waiting status */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 1.125rem; /* Smaller font size for mobile */
+  }
+
+  .transaction-table th,
+  .transaction-table td {
+    font-size: 0.875rem; /* Smaller font size for mobile */
+  }
+}

@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* Custom background colors */
+.bg-custom-blue {
+  background-color: #1e56a0;
+}
+
+.bg-custom-light-blue {
+  background-color: #3d95ef;
+}
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header-container {
+  background-color: #1e56a0;
+  color: white;
+  padding: 16px;
+}
+
+.header-container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation styling */
+.nav-link {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+/* Main content styling */
+.main-container {
+  margin-top: 32px;
+  padding: 16px;
+}
+
+/* Product grid styling */
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+/* Product information */
+.product-info {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Add more specific style elements here */
